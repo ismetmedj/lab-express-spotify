@@ -1,0 +1,13 @@
+<h1>tracks albums</h1>
+
+{{#each tracks}}
+
+  {{!-- <h2>{{track_number}}</h2> --}}
+  <h2>{{name}}</h2>
+  {{!-- <img src={{images.2.url}} alt="" /> --}}
+
+  <audio controls src="{{preview_url}}">
+
+  </audio>
+
+{{/each}}
